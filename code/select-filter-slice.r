@@ -19,7 +19,7 @@ select(tomato, Price)
 tomato %>% select(Price)
 
 tomato %>% select(Source, Price)
-tomato %>% select(Source, Price Sweet)
+tomato %>% select(Source, Price, Sweet)
 
 tomato %>% select(starts_with('S'))
 

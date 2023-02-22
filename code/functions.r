@@ -1,3 +1,5 @@
+library(dplyr)
+
 # ------------------------36. define_a_function------------------------
 ## Define a function
 

@@ -50,7 +50,7 @@ diamonds %>% distinct(cut, .keep_all=TRUE)
 diamonds %>% distinct(cut, color, .keep_all=TRUE)
 
 diamonds %>% pull(price) %>% mean() # ------------------------31. Summarize------------------------
-diamonds %>5 summarize(mean(price))
+diamonds %>% summarize(mean(price))
 diamonds %>% summarize(sum(carat))
 
 diamonds %>% summarize(AvgPrice=mean(price))
